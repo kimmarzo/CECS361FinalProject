@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Fri Mar 18 21:58:55 2022">
+<application name="pa" timeStamp="Thu Mar 24 13:59:32 2022">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="321bc6444be247d89ac472d3e70e0451" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -22,144 +22,15 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SimulationRun" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
-<property name="NEXT, Next " value="9" type="GuiResourceData"/>
-<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, vga_sync" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, vga_test" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
 <property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, vga_sync (vga_sync.v" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, vga_test (vga_test.v" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, Nexys A7-100T ; digilentinc.com ; D.0 ; xc7a100tcsg324-1 ; 324 ; 1.0 ; 135 ; 240 ; 126800 ; 0 ; 0 ; 210 ; 63400 ; 6 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0, 0, Nexys A7-100T, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, FinalProject" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
-<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 223, 332, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, rgb[2:0]], 5" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, rgb_reg[2:0]], 9" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 100, 542" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 101, 537" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 104, 519" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 108, 382" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 108, 537" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 110, 523" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 110, 531" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 110, 539" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 111, 540" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 111, 568" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 113, 536" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 118, 533" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 125, 517" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 125, 540" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 129, 530" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 136, 551" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 137, 534" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 140, 146" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 145, 566" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 146, 509" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 147, 535" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 148, 524" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 151, 168" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 159, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 161, 270" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 161, 471" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 167, 485" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 167, 487" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 168, 503" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 168, 524" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 169, 451" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 171, 522" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 180, 519" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 181, 504" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 182, 248" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 187, 97" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 188, 314" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 188, 437" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 188, 471" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 189, 480" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 190, 111" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 190, 249" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 193, 548" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 201, 536" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 203, 535" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 205, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 216, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 219, 489" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 224, 534" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 225, 540" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 228, 542" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 229, 532" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 232, 535" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 232, 568" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 243, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 251, 553" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 258, 532" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 272, 501" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 273, 516" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 278, 544" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 279, 558" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 282, 502" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 283, 535" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 285, 539" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 297, 563" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 306, 548" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 313, 541" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 317, 437" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 343, 503" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 352, 532" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 382, 519" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 382, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 401, 517" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 408, 537" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 409, 404" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 42, 539" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 44, 539" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 45, 531" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 494, 540" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 53, 246" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 55, 522" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 57, 310" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 579, 516" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 63, 57" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 637, 537" value="2" type="GuiResourceData"/>
-<property name="vga_sync.v, 64, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 65, 124" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 65, 160" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 67, 401" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 75, 570" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 80, 147" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 82, 538" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 84, 144" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 84, 145" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 84, 313" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 85, 180" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 85, 545" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 86, 539" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 87, 227" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 89, 533" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 91, 536" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 95, 266" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 96, 532" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 96, 554" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 97, 535" value="1" type="GuiResourceData"/>
-<property name="vga_sync.v, 98, 317" value="1" type="GuiResourceData"/>
-<property name="vga_test.v, 108, 392" value="1" type="GuiResourceData"/>
-<property name="vga_test.v, 109, 381" value="1" type="GuiResourceData"/>
-<property name="vga_test.v, 365, 570" value="1" type="GuiResourceData"/>
-<property name="vga_test.v, 471, 534" value="1" type="GuiResourceData"/>
-<property name="vga_test.v, 63, 484" value="1" type="GuiResourceData"/>
-<property name="vga_test.v, 641, 539" value="1" type="GuiResourceData"/>
+<property name="vga_sync.v, 195, 507" value="1" type="GuiResourceData"/>
+<property name="vga_sync.v, 200, 503" value="1" type="GuiResourceData"/>
+<property name="vga_sync.v, 88, 489" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="90" type="GuiMode"/>
+<property name="GuiMode" value="20" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="84" type="TclMode"/>
+<property name="TclMode" value="11" type="TclMode"/>
 </item>
 </section>
 </application>

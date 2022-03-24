@@ -27,6 +27,8 @@ module vga_sync
      output wire [9:0] pixel_x, pixel_y 
     );
     
+    //version control test
+    
     // constant declaration
     //VGA 640 by 480 sync parameters
     localparam HD = 640; // horizontal disyplay area

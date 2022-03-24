@@ -2,13 +2,13 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Thu Mar 24 13:25:51 2022
-# Process ID: 19148
-# Current directory: C:/Users/Alarik Damrow/Desktop/FinalProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8444 C:\Users\Alarik Damrow\Desktop\FinalProject\FinalProject.xpr
-# Log file: C:/Users/Alarik Damrow/Desktop/FinalProject/vivado.log
-# Journal file: C:/Users/Alarik Damrow/Desktop/FinalProject\vivado.jou
+# Start of session at: Thu Mar 24 13:59:07 2022
+# Process ID: 1608
+# Current directory: C:/Users/15623/Desktop/361 Final Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16872 C:\Users\15623\Desktop\361 Final Project\FinalProject.xpr
+# Log file: C:/Users/15623/Desktop/361 Final Project/vivado.log
+# Journal file: C:/Users/15623/Desktop/361 Final Project\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/Alarik Damrow/Desktop/FinalProject/FinalProject.xpr}
+open_project {C:/Users/15623/Desktop/361 Final Project/FinalProject.xpr}
 update_compile_order -fileset sources_1
